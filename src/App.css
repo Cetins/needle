@@ -30,20 +30,20 @@
     padding: 3rem;
 }
 
-.light-container, .pink-container {
+.light-container, .gray-container {
     opacity: .8;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 40rem;
+    height: 50rem;
 }
 .light-container {
     background-color: var(--light);
 }
 
-.pink-container {
-    background-color: var(--accent-light);
+.gray-container {
+    background-color: var(--accent-gray);
 }
 #nav-bar {
     background-color: var(--light);
