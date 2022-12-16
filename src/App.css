@@ -1,3 +1,8 @@
+.needle-logo {
+    display: block;
+    height: 3rem;
+}
+
 .bir {
     font-family: 'Playfair Display', serif;
     font-style: italic;
@@ -53,6 +58,7 @@
 #nav-bar ul {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 3rem;
     list-style: none;
 }
