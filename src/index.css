@@ -1,9 +1,9 @@
 :root {
   --dark: #12263A;
   --light: #F1EEF1;
-  --accent-light: #D9888B;
+  --accent-light: #F1EEF1b4;;
   --accent-dark: #ed373d;
-  --accent-gray: #919098;
+  --accent-gray: #919098b4;
 
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
