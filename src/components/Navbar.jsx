@@ -13,6 +13,7 @@ const Navbar = () => {
     return (
         <nav id="nav-bar">
             <ul>
+                <li><a onClick={handleMenuClick} className='nav-link' href="#App"><img className='needle-logo' src='src/assets/needle-logo.png' alt='needle logo'/></a></li>
                 <li><a onClick={handleMenuClick} className='nav-link' href="#hakkimizda">Hakkimizda</a></li>
                 <li><a onClick={handleMenuClick} className='nav-link' href="#galeri">Galeri</a></li>
                 <li><a onClick={handleMenuClick} className='nav-link' href="#iletisim">Iletisim</a></li>
