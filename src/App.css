@@ -30,8 +30,7 @@
     padding: 3rem;
 }
 
-.light-container {
-    background-color: var(--light);
+.light-container, .pink-container {
     opacity: .8;
     padding: 2rem;
     display: flex;
@@ -39,7 +38,13 @@
     justify-content: center;
     height: 40rem;
 }
+.light-container {
+    background-color: var(--light);
+}
 
+.pink-container {
+    background-color: var(--accent-light);
+}
 #nav-bar {
     background-color: var(--light);
     opacity: .8;
