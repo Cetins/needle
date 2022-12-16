@@ -1,15 +1,92 @@
-.hero-text {
+.bir {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: .5rem;
+}
+.peri {
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Note that the color of the text is set with the    *
+* fill property, the color property is for HTML only */
+.masali {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.3.rem;
+    fill: var(--dark);
+}
+
+.hero-div {
     height: 100vh;
-    font-family: 'La Belle Aurore', cursive;
+    margin: 2rem;
+}
+
+.hero-text {
     color: var(--dark);
     font-size: 7rem;
-    padding: 6rem 3rem;
+    line-height: 1rem;
+    padding: 3rem;
 }
 
 .light-container {
     background-color: var(--light);
+    opacity: .8;
     padding: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 40rem;
+}
+
+#nav-bar {
+    background-color: var(--light);
+    opacity: .8;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    list-style: none;
+}
+
+#nav-bar a {
+    color: var(--dark);
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+#nav-bar a:hover {
+    cursor: pointer;
+}
+
+.footer-icon {
+    color: var(--dark);
+    height: 3rem;
+    padding: .5rem 2rem;  
+}
+
+#phone-link, #address {
+    color: var(--dark);
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.sm-padding-p {
+    padding: .2rem;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
 }
