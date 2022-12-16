@@ -1,0 +1,15 @@
+.hero-text {
+    height: 100vh;
+    font-family: 'La Belle Aurore', cursive;
+    color: var(--dark);
+    font-size: 7rem;
+    padding: 6rem 3rem;
+}
+
+.light-container {
+    background-color: var(--light);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
